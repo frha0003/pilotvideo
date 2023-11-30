@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 769px) {
+  body {
+    margin: 0;
+  }
+
+  body {
+    background-color: #eddfc4;
+    background-image: url(fotos/moenster.png);
+    background-size: 52rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+  }
+
+  h1 {
+    color: #7a0909;
+    font-size: 4.5rem;
+    margin-left: 15rem;
+    font-family: "Work Sans", sans-serif;
+    padding-top: 5px;
+  }
+}
+
+@media (min-width: 769px) {
+  header {
+    position: static;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.6rem;
+    color: #7a0909;
+    top: 0;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  header .menu a {
+    font-size: 2rem;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.4rem;
+    gap: 30px;
+    overflow-x: auto;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #7a0909;
+  }
+  a :hover {
+    color: #bd6b7e;
+  }
+}
+
+@media (min-width: 769px) {
+  footer {
+    color: #7a0909;
+    font-size: 1.7rem;
+    margin-left: 15rem;
+    margin-top: 2%;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 4%;
+  }
+
+  .footer_fotos {
+    color: #7a0909;
+    font-size: 1.7rem;
+    margin-left: 13rem;
+    font-family: "Work Sans", sans-serif;
+  }
+}
